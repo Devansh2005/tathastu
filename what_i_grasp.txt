@@ -24,13 +24,15 @@ Pull Request
 
 git pull origin "mere_branch"
 
-To check the status -- git status
+To check the status -- git status   (Untracked files in red and tracked files in green color)
+
+git status---> changed file sin red color, UNTRACKED FILES
 
 To add the changed files
 
-git add .
+git add .                               
 
-to commit the file--> staging area
+to commit the file--> staging area         (Green color)
 
 git commit -m "Krdia commit"
 
