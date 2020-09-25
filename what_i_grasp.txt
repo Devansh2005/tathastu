@@ -1,0 +1,60 @@
+Commands
+
+1- git --version
+2- git config --global user.name = "Devansh Tayal"
+3- git config --global user.email ="devanshtayal2005@gmail.com"
+
+To check the entries
+
+git config --global --list
+
+INITIALIZE git
+
+git init
+
+Add repo
+
+git remote add origin
+
+create a branch
+
+git checkout -b "mere_branch"
+
+Pull Request
+
+git pull origin "mere_branch"
+
+To check the status -- git status
+
+To add the changed files
+
+git add .
+
+to commit the file--> staging area
+
+git commit -m "Krdia commit"
+
+PUSH
+
+Remote changes in  origin --> git push origin master
+Remote changes in branch --> git push origin mere_branch
+
+MERGE
+
+git merge mere_branch
+
+To Reverse the changes
+
+git revert commit_ID
+
+To fetch a part of code instead of whole repo
+
+git fetch origin mere_branch
+
+TO GET REMOTE REPO TO LOCAL
+
+in terminal get the path u want to clone the repo
+
+git clone "SSH URL LINK"
+
+
